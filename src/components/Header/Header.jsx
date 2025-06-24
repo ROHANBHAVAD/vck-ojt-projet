@@ -4,26 +4,18 @@ const Header = () =>
 {
      return(
         
+           
         
         
         <div class="navlayout">
-            
+        <Header/>            
             <nav>
-                <button class="hamburger-menu">
-                    <span class="hamburger-icon"></span>
-                    <span class="hamburger-icon"></span>
-                    <span class="hamburger-icon"></span>
-                </button>
-                <nav class="drawer-nav ">
-                    <button class="close-drawer-btn">
-                        ✕</button><a class="nav-item" href="/" data-discover="true">Home</a>
-                        <a class="nav-item" href="/about" data-discover="true">About</a>
-                        <a class="nav-item" href="/courses" data-discover="true">Courses</a>
-                        <a class="nav-item" href="/contact" data-discover="true">Contact</a>
-                        <a class="nav-item btn primary-btn" href="/admissions" data-discover="true">Apply Now!</a>
-
-                        
-                 </nav>
+                <Link to ="/home">home</Link>
+                <Link to="/about">aboute</Link>
+                <Link to="/courses">Courses</Link>
+                <Link to ="/contact">Contact</Link>
+                <Link to="/admission">Apply Now</Link>                        
+                
                  
             </nav>
         </div>

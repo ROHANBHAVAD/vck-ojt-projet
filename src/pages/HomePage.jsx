@@ -2,20 +2,19 @@ import Header from "../components/Header/Header";
 const HomePage = () => {
     return(
         
-
-        <div >
+            
+          <div >
             
            
-            
-            <Header/>           
+            <Header/> 
+              
                 
                 <h1 className="mainheader">
                 Welcome to Vivekanand <br></br> College!
                 </h1>
                 <h4 className="your-journey">
                     Your journey to excellence starts here.
-                </h4>
-           
+           </h4>
         <p>
             **Vivekanand College** is a premier educational institution dedicated to fostering academic excellence, innovation, and holistic development. Established in [Year of Establishment, e.g., 1980], we have proudly served generations of students, empowering them to achieve their full potential.
             <br></br>
@@ -64,6 +63,9 @@ At Vivekanand College, we believe in a vibrant learning environment that extends
             
        
         </div>
+
+
+
     )
 }
 
