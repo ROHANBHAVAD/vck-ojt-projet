@@ -399,7 +399,7 @@
 /* Styles for the OPEN Chat Button (when chat is closed) */
 .chatbot-open-button {
   background-color: #007BFF; /* Primary blue */
-  color: white;
+  color: rgb(250, 249, 249);
   border: none;
   border-radius: 50%; /* Make it round */
   width: 100px; /* Size of the button */

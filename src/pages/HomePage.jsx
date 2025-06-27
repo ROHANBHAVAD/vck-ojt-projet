@@ -7,7 +7,7 @@ const HomePage = () => {
 
       <div className="hero-section">
         <img
-          src="../assets/college-banner.png"
+          src="/images/college-banner.png"
           alt="Vivekanand College Campus"
           className="hero-banner-image"
         />
