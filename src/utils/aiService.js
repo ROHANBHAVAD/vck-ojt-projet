@@ -5,8 +5,7 @@
 // Environment variables are like secret codes or settings that you don't want to hardcode
 // directly into your public-facing code (e.g., API keys).
 // 'VITE_GEMINI_API_KEY' is a variable that would typically be defined in a '.env' file
-// at the root of your project (e.g., VITE_GEMINI_API_KEY="your_actual_key_here").
-// This keeps your sensitive API key safe and separate from your main code.
+ // This keeps your sensitive API key safe and separate from your main code.
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 /**
